@@ -12,17 +12,17 @@
 
 /* Configuração do corpo do site */
 body {
-    background-image: url(/imagens/background.londres.jpeg);
+    background-image: url(../imagens/background.londres.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    overflow-y: hidden;
+
 }
 
 /* Container do formulário */
 #container-form {
-    margin: 15vh auto 0 auto;
+    margin: 18vh auto 0 auto;
     background-color: #ffffff;
     padding: 10px 20px;
     border-radius: 15px;
@@ -125,8 +125,9 @@ body {
 
 /* Rodapé do site */
 footer {
-    margin-top: 28vh;
+    margin-top: 40vh;
 }
+
 footer p {
     text-align: center;
     color: white;
@@ -136,3 +137,88 @@ footer p span {
     color: yellow;
 }
 
+/* Configuração de responsivo */
+/* Telas de 1440px */
+@media screen and (max-width: 1440px) {
+/* Rodapé do site */
+footer {
+    margin-top: 22vh;
+}
+}
+
+/* Telas de 834px */
+@media screen and (max-width: 834px){
+/* Container do formulário */
+#container-form {
+    margin: 25vh auto 0 auto;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 380px;
+    height: 500px;
+    color: black;
+}
+
+/* Rodapé do site */
+footer {
+    margin-top: 47vh;
+}
+}
+
+/* Telas de 768px */
+@media screen and (max-width: 768px) {
+/* Rodapé do site */
+footer {
+    margin-top: 40vh;
+}
+}
+
+/* telas de 428px */
+@media screen and (max-width: 428px) {
+/* Rodapé do site */
+footer {
+    margin-top: 30vh;
+}
+}
+
+/* Telas de 375px */
+@media screen and (max-width: 375px) {
+/* Container do formulário */
+#container-form {
+    margin: 25vh auto 0 auto;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 350px;
+    height: 500px;
+    color: black;
+}
+
+/* Rodapé do site */
+footer {
+    margin-top: 12vh;
+}
+}
+
+/* Telas de 320px */
+@media screen and (max-width: 320px) {
+body {
+    height: 100%;
+}
+
+/* Container do formulário */
+#container-form {
+    margin: 50px auto 0 auto;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    color: black;
+}
+
+/* Rodapé do site */
+footer {
+    margin-top: 30px;
+}
+}
